@@ -1,4 +1,4 @@
-# Jelly Find Media By Property
+# Jelly-Find (Media By Property)
 query jellyfin to find media with given properties
 
 ### Examples
