@@ -2,9 +2,9 @@
 query jellyfin to find media with given properties
 
 ### Examples
-`-q` match videos with the AVI container, match videos with ASS codec subtitles.
+`-q avi,ass` match videos with the AVI container, match videos with ASS codec subtitles.
 
-`-l` limit the results to 5 items per term (avi, ass).
+`-l 5` limit the results to 5 items per term (avi, ass).
 
 `-v` prints out the total number of matches for a term.
 
