@@ -124,7 +124,7 @@ def main(argv):
             continue
         print('\nitems matched for term [%s]:' % query['Name'])
         for match in query['Matches']:
-            print('    Type: [%s] %sName: [%s]' % (match['Type'], ('Series: [%s]' % match['SeriesName']) if match['Type'] == 'Episode' else '', match['Name']))
+            print('    Type: [%s] %sName: [%s]' % (match['Type'], ('Series: [%s] ' % match['SeriesName']) if match['Type'] == 'Episode' else '', match['Name']))
         if query['IgnoredMatches']:
             print('    + %s addition matches' % len(query['IgnoredMatches']))
 
